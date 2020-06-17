@@ -1,0 +1,6 @@
+execute "normal! iex00/author/ex01/email/ex02/slack/ex04/registration\<ESC>"
+ex00/author/ex01/email/ex02/slack/ex04/registration
+func! DeleteTrailingsWS()
+      execute "normal! mz"
+	  %s/\s\+$//ge
+	  exe "normal! 'z"c	  
